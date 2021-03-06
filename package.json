@@ -1,0 +1,36 @@
+{
+  "name": "home-assignment",
+  "version": "1.0.1",
+  "description": "Node.js boilerplate with ES6, ESLint, and Prettier",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run build-babel",
+    "start": "npm run build && node ./build/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "nodejs",
+    "es6",
+    "eslint",
+    "prettier"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "node-dijkstra": "^2.5.0",
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
